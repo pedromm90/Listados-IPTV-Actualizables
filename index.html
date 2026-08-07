@@ -32,32 +32,55 @@
     <!-- Header -->
     <header class="bg-gray-900 border-b border-gray-800 sticky top-0 z-40 shadow-lg">
       <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
-        <div class="flex items-center space-x-3">
-          <div class="bg-blue-600 p-2 rounded-xl text-white shadow-md shadow-blue-500/20">
-            <i data-lucide="tv" class="w-6 h-6"></i>
+        <!-- Logo & Hamburger Toggle -->
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <div class="bg-blue-600 p-2 rounded-xl text-white shadow-md shadow-blue-500/20">
+              <i data-lucide="tv" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h1 class="text-xl font-bold tracking-wide bg-gradient-to-r from-blue-400 to-indigo-300 bg-clip-text text-transparent">
+                TV Online PMM
+              </h1>
+              <p class="text-xs text-gray-400">Reproductor IPTV en Vivo</p>
+            </div>
           </div>
-          <div>
-            <h1 class="text-xl font-bold tracking-wide bg-gradient-to-r from-blue-400 to-indigo-300 bg-clip-text text-transparent">
-              TV Online PMM
-            </h1>
-            <p class="text-xs text-gray-400">Reproductor IPTV en Vivo</p>
-          </div>
+
+          <!-- Hamburger Button (Visible only on mobile/small devices) -->
+          <button
+            id="mobile-menu-btn"
+            aria-label="Abrir menú de navegación"
+            class="md:hidden p-2 rounded-xl text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
+          >
+            <i data-lucide="menu" id="menu-icon-open" class="w-6 h-6"></i>
+            <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 hidden"></i>
+          </button>
         </div>
 
-        <!-- Filters, Search & Actions -->
-        <div class="flex flex-col sm:flex-row items-center gap-2 w-full md:w-auto">
+        <!-- Navigation / Actions Menu (Collapsible on mobile via Tailwind) -->
+        <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row items-stretch md:items-center gap-2.5 w-full md:w-auto pt-2 md:pt-0 border-t md:border-t-0 border-gray-800/80 transition-all duration-300">
           <!-- Copy M3U URL Button -->
           <button
             id="copy-m3u-btn"
             title="Copiar enlace del repositorio M3U"
-            class="w-full sm:w-auto flex items-center justify-center space-x-2 bg-blue-600/20 hover:bg-blue-600 text-blue-400 hover:text-white px-3 py-2 rounded-lg border border-blue-500/30 hover:border-blue-500 text-sm font-medium transition-all duration-200 shadow-sm group cursor-pointer"
+            class="w-full md:w-auto flex items-center justify-center space-x-2 bg-blue-600/20 hover:bg-blue-600 text-blue-400 hover:text-white px-3 py-2 rounded-lg border border-blue-500/30 hover:border-blue-500 text-sm font-medium transition-all duration-200 shadow-sm group cursor-pointer"
           >
             <i data-lucide="copy" id="copy-btn-icon" class="w-4 h-4 text-blue-400 group-hover:text-white transition-colors"></i>
             <span id="copy-btn-text">Copiar M3U</span>
           </button>
 
+          <!-- External M3U Modal Trigger Button -->
+          <button
+            id="open-m3u-modal-btn"
+            title="Agregar listado .m3u externo"
+            class="w-full md:w-auto flex items-center justify-center space-x-2 bg-emerald-600/20 hover:bg-emerald-600 text-emerald-400 hover:text-white px-3 py-2 rounded-lg border border-emerald-500/30 hover:border-emerald-500 text-sm font-medium transition-all duration-200 shadow-sm group cursor-pointer"
+          >
+            <i data-lucide="plus-circle" class="w-4 h-4 text-emerald-400 group-hover:text-white transition-colors"></i>
+            <span>Cargar M3U</span>
+          </button>
+
           <!-- Search Box -->
-          <div class="relative w-full sm:w-60">
+          <div class="relative w-full md:w-52">
             <input
               type="text"
               id="search-input"
@@ -70,13 +93,71 @@
           <!-- Category Filter -->
           <select
             id="group-select"
-            class="w-full sm:w-44 bg-gray-800 text-sm text-gray-200 rounded-lg px-3 py-2 border border-gray-700 focus:outline-none focus:border-blue-500 transition-colors cursor-pointer"
+            class="w-full md:w-40 bg-gray-800 text-sm text-gray-200 rounded-lg px-3 py-2 border border-gray-700 focus:outline-none focus:border-blue-500 transition-colors cursor-pointer"
           >
             <option value="ALL">Todas las Categorías</option>
           </select>
         </div>
       </div>
     </header>
+
+    <!-- Modal para Agregar Listado .m3u Externo -->
+    <div id="m3u-modal" class="fixed inset-0 z-50 hidden bg-black/75 backdrop-blur-sm flex items-center justify-center p-4">
+      <div class="bg-gray-900 border border-gray-800 rounded-2xl w-full max-w-lg shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200">
+        <!-- Modal Header -->
+        <div class="p-5 border-b border-gray-800 flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <i data-lucide="link" class="w-5 h-5 text-emerald-400"></i>
+            <h3 class="text-lg font-bold text-white">Agregar Listado M3U Externo</h3>
+          </div>
+          <button id="close-m3u-modal-btn" class="text-gray-400 hover:text-white p-1 rounded-lg hover:bg-gray-800 transition">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+        <!-- Modal Body -->
+        <div class="p-5 space-y-4">
+          <p class="text-sm text-gray-300">
+            Ingresa la URL de un listado <b>.m3u</b> o <b>.m3u8</b> remoto. Si el listado es válido y está en funcionamiento, reemplazará automáticamente los canales en la lista.
+          </p>
+
+          <div>
+            <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
+              URL del Listado IPTV:
+            </label>
+            <input
+              type="url"
+              id="m3u-url-input"
+              placeholder="https://ejemplo.com/lista.m3u"
+              class="w-full bg-gray-800 text-sm text-white placeholder-gray-500 rounded-xl px-4 py-3 border border-gray-700 focus:outline-none focus:border-emerald-500 transition-colors"
+            />
+          </div>
+
+          <!-- Alert / Status message -->
+          <div id="modal-status-msg" class="hidden p-3 rounded-xl text-xs font-medium border flex items-start space-x-2">
+            <i id="modal-status-icon" data-lucide="alert-triangle" class="w-4 h-4 flex-shrink-0 mt-0.5"></i>
+            <span id="modal-status-text"></span>
+          </div>
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="p-4 bg-gray-950/60 border-t border-gray-800 flex items-center justify-end space-x-3">
+          <button
+            id="reset-default-m3u-btn"
+            class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 text-sm font-semibold rounded-xl transition"
+          >
+            Restaurar Por Defecto
+          </button>
+          <button
+            id="submit-m3u-btn"
+            class="px-5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold rounded-xl shadow-lg shadow-emerald-600/20 flex items-center space-x-2 transition disabled:opacity-50"
+          >
+            <span id="submit-btn-spinner" class="hidden w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+            <span id="submit-btn-text">Cargar Listado</span>
+          </button>
+        </div>
+      </div>
+    </div>
 
     <!-- Main Content Area -->
     <main class="flex-1 max-w-7xl w-full mx-auto p-4 flex flex-col lg:flex-row gap-6">
@@ -507,14 +588,28 @@
         playerStatus.classList.remove('hidden');
       }
 
-      // Event listeners
-      searchInput.addEventListener('input', filterChannels);
-      groupSelect.addEventListener('change', filterChannels);
-      retryBtn.addEventListener('click', () => {
-        if (activeChannelIndex !== -1) {
-          playChannel(activeChannelIndex);
-        }
-      });
+      // Mobile Hamburger Menu Logic
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuIconOpen = document.getElementById('menu-icon-open');
+      const menuIconClose = document.getElementById('menu-icon-close');
+
+      if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', () => {
+          const isHidden = mobileMenu.classList.contains('hidden');
+          if (isHidden) {
+            mobileMenu.classList.remove('hidden');
+            mobileMenu.classList.add('flex');
+            menuIconOpen.classList.add('hidden');
+            menuIconClose.classList.remove('hidden');
+          } else {
+            mobileMenu.classList.add('hidden');
+            mobileMenu.classList.remove('flex');
+            menuIconOpen.classList.remove('hidden');
+            menuIconClose.classList.add('hidden');
+          }
+        });
+      }
 
       // Copy M3U URL button logic
       const copyM3uBtn = document.getElementById('copy-m3u-btn');
@@ -549,25 +644,129 @@
         }
       });
 
-      // Fetch M3U List on start
-      async function initApp() {
-        try {
-          const response = await fetch(M3U_URL);
-          if (!response.ok) throw new Error('Error al descargar el archivo M3U');
-          const data = await response.text();
+      // External M3U Modal Logic & Controls
+      const openM3uModalBtn = document.getElementById('open-m3u-modal-btn');
+      const closeM3uModalBtn = document.getElementById('close-m3u-modal-btn');
+      const m3uModal = document.getElementById('m3u-modal');
+      const m3uUrlInput = document.getElementById('m3u-url-input');
+      const submitM3uBtn = document.getElementById('submit-m3u-btn');
+      const submitBtnSpinner = document.getElementById('submit-btn-spinner');
+      const submitBtnText = document.getElementById('submit-btn-text');
+      const resetDefaultM3uBtn = document.getElementById('reset-default-m3u-btn');
 
-          channels = parseM3U(data);
+      const modalStatusMsg = document.getElementById('modal-status-msg');
+      const modalStatusText = document.getElementById('modal-status-text');
+
+      function openModal() {
+        m3uModal.classList.remove('hidden');
+        hideModalStatus();
+      }
+
+      function closeModal() {
+        m3uModal.classList.add('hidden');
+      }
+
+      function showModalStatus(message, type = 'error') {
+        modalStatusMsg.className = `p-3 rounded-xl text-xs font-medium border flex items-start space-x-2 ${
+          type === 'error'
+            ? 'bg-rose-950/60 border-rose-800/80 text-rose-300'
+            : 'bg-emerald-950/60 border-emerald-800/80 text-emerald-300'
+        }`;
+        modalStatusText.textContent = message;
+        modalStatusMsg.classList.remove('hidden');
+        lucide.createIcons();
+      }
+
+      function hideModalStatus() {
+        modalStatusMsg.classList.add('hidden');
+      }
+
+      openM3uModalBtn.addEventListener('click', openModal);
+      closeM3uModalBtn.addEventListener('click', closeModal);
+
+      // Close modal when clicking on backdrop
+      m3uModal.addEventListener('click', (e) => {
+        if (e.target === m3uModal) closeModal();
+      });
+
+      // Load playlist function from custom URL or default
+      async function loadPlaylist(targetUrl, isExternal = false) {
+        try {
+          const response = await fetch(targetUrl);
+          if (!response.ok) {
+            throw new Error(`Respuesta no válida del servidor (HTTP ${response.status})`);
+          }
+          const textData = await response.text();
+          
+          if (!textData || (!textData.includes('#EXTM3U') && !textData.includes('#EXTINF'))) {
+            throw new Error('El archivo proporcionado no contiene un formato M3U/M3U8 válido.');
+          }
+
+          const parsedChannels = parseM3U(textData);
+          if (parsedChannels.length === 0) {
+            throw new Error('No se detectaron canales válidos en el listado cargado.');
+          }
+
+          // Replace channels and update UI
+          channels = parsedChannels;
+          activeChannelIndex = -1;
           updateGroupDropdown(channels);
           renderChannels(channels);
 
-          // Auto play first channel if available
           if (channels.length > 0) {
             playChannel(0);
           }
+
+          return { success: true, count: channels.length };
         } catch (err) {
-          console.error(err);
-          showPlayerError('No se pudo cargar la lista de canales IPTV.');
+          console.error('Error al cargar playlist:', err);
+          return { success: false, error: err.message };
         }
+      }
+
+      // Submit custom external M3U
+      submitM3uBtn.addEventListener('click', async () => {
+        const inputUrl = m3uUrlInput.value.trim();
+        if (!inputUrl) {
+          showModalStatus('Por favor ingresa una URL de listado M3U válida.');
+          return;
+        }
+
+        // Set UI loading state
+        submitM3uBtn.disabled = true;
+        submitBtnSpinner.classList.remove('hidden');
+        submitBtnText.textContent = 'Verificando...';
+        hideModalStatus();
+
+        const result = await loadPlaylist(inputUrl, true);
+
+        submitM3uBtn.disabled = false;
+        submitBtnSpinner.classList.add('hidden');
+        submitBtnText.textContent = 'Cargar Listado';
+
+        if (result.success) {
+          showModalStatus(`¡Listado cargado con éxito! Se importaron ${result.count} canales.`, 'success');
+          setTimeout(() => {
+            closeModal();
+          }, 1500);
+        } else {
+          showModalStatus(
+            `Posible falla en el listado externo: ${result.error}. Verifica que la URL esté activa y permita acceso CORS.`
+          );
+        }
+      });
+
+      // Reset to default repository list
+      resetDefaultM3uBtn.addEventListener('click', async () => {
+        m3uUrlInput.value = '';
+        hideModalStatus();
+        await loadPlaylist(M3U_URL, false);
+        closeModal();
+      });
+
+      // Fetch M3U List on start (always load default repository list on page refresh)
+      async function initApp() {
+        await loadPlaylist(M3U_URL, false);
       }
 
       initApp();
