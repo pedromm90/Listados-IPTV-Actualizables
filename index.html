@@ -270,6 +270,14 @@
     <script>
       const M3U_URL = 'https://raw.githubusercontent.com/pedromm90/Listados-IPTV-Actualizables/refs/heads/main/LISTADO_M3U.m3u';
 
+      // Proxy helper: routes requests through /api/proxy on HTTPS to avoid Mixed Content blocking
+      function proxyUrl(url) {
+        if (window.location.protocol === 'https:' && url.startsWith('http:')) {
+          return `/api/proxy?url=${encodeURIComponent(url)}`;
+        }
+        return url;
+      }
+
       // Diccionario de logotipos CDN garantizados (TV-Logos Repository CDN)
       const KNOWN_LOGOS = {
         'dsports': 'https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/dsports-lam.png',
@@ -532,15 +540,27 @@
           currentHls = null;
         }
 
+        // Route the main manifest URL through the proxy if needed
+        const streamUrl = proxyUrl(url);
+
         if (Hls.isSupported()) {
           const hls = new Hls({
             enableWorker: true,
             lowLatencyMode: true,
-            manifestLoadingTimeOut: 10000,
+            manifestLoadingTimeOut: 15000,
+            levelLoadingTimeOut: 15000,
+            fragLoadingTimeOut: 25000,
+            // Route ALL sub-requests (segments, keys, etc.) through the proxy too
+            xhrSetup: function (xhr, requestUrl) {
+              const proxied = proxyUrl(requestUrl);
+              if (proxied !== requestUrl) {
+                xhr.open('GET', proxied, true);
+              }
+            }
           });
           currentHls = hls;
 
-          hls.loadSource(url);
+          hls.loadSource(streamUrl);
           hls.attachMedia(videoPlayer);
 
           hls.on(Hls.Events.MANIFEST_PARSED, () => {
@@ -551,13 +571,13 @@
           hls.on(Hls.Events.ERROR, (event, data) => {
             if (data.fatal) {
               playerLoading.classList.add('hidden');
-              showPlayerError('No se pudo reproduci la señal en vivo. Es posible que el servidor emisor no responda o bloquee CORS.');
+              showPlayerError('No se pudo reproducir la señal en vivo. Es posible que la emisión esté fuera de línea o el servidor no responda.');
               switch (data.type) {
                 case Hls.ErrorTypes.NETWORK_ERROR:
-                  console.error('Fatal network error encountered, try to recover');
+                  console.error('Fatal network error:', data);
                   break;
                 case Hls.ErrorTypes.MEDIA_ERROR:
-                  console.error('Fatal media error encountered, try to recover');
+                  console.error('Fatal media error, trying to recover...');
                   hls.recoverMediaError();
                   break;
                 default:
@@ -567,8 +587,7 @@
             }
           });
         } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
-          // Native support (Safari)
-          videoPlayer.src = url;
+          videoPlayer.src = streamUrl;
           videoPlayer.addEventListener('loadedmetadata', () => {
             playerLoading.classList.add('hidden');
             videoPlayer.play();
@@ -689,18 +708,35 @@
         if (e.target === m3uModal) closeModal();
       });
 
+      // Helper: fetch M3U text using own serverless proxy first, then external proxies as fallback
+      async function fetchTextWithProxy(url) {
+        const targets = [
+          `/api/proxy?url=${encodeURIComponent(url)}`, // 1. Own Vercel serverless proxy (best)
+          url, // 2. Direct fetch (works for CORS-friendly URLs or local dev)
+          `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` // 3. AllOrigins fallback
+        ];
+
+        for (const target of targets) {
+          try {
+            const response = await fetch(target);
+            if (response.ok) {
+              const text = await response.text();
+              if (text && (text.includes('#EXTM3U') || text.includes('#EXTINF'))) {
+                return text;
+              }
+            }
+          } catch (e) {
+            console.warn(`Fetch failed: ${target}`, e);
+          }
+        }
+
+        throw new Error('No se pudo acceder a la lista M3U. Verifica la URL o que el servidor permita acceso externo.');
+      }
+
       // Load playlist function from custom URL or default
       async function loadPlaylist(targetUrl, isExternal = false) {
         try {
-          const response = await fetch(targetUrl);
-          if (!response.ok) {
-            throw new Error(`Respuesta no válida del servidor (HTTP ${response.status})`);
-          }
-          const textData = await response.text();
-          
-          if (!textData || (!textData.includes('#EXTM3U') && !textData.includes('#EXTINF'))) {
-            throw new Error('El archivo proporcionado no contiene un formato M3U/M3U8 válido.');
-          }
+          const textData = await fetchTextWithProxy(targetUrl);
 
           const parsedChannels = parseM3U(textData);
           if (parsedChannels.length === 0) {
