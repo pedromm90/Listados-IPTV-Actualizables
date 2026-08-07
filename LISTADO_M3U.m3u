@@ -1,0 +1,186 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="DSports" tvg-name="DSports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/DSports_logo.svg" group-title="Deportes",DSports (Opción 5)
+http://38.187.7.252:8000/play/a03d/index.m3u8
+
+#EXTINF:-1 tvg-id="DSports" tvg-name="DSports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/DSports_logo.svg" group-title="Deportes",DSports (Opción 7)
+http://191.97.59.33:8000/play/a09t/index.m3u8
+
+#EXTINF:-1 tvg-id="A&E" tvg-name="A&E" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/A%26E_Networks_2022_logo.svg/2560px-A%26E_Networks_2022_logo.svg.png" group-title="A&E",A&E HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a06v/index.m3u8
+
+#EXTINF:-1 tvg-id="AMC" tvg-name="AMC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/AMC_HD.png" group-title="AMC",AMC HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a06w/index.m3u8
+
+#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/31/AXN_logo.svg" group-title="AXN",AXN HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a072/index.m3u8
+
+#EXTINF:-1 tvg-id="ANIMAL" tvg-name="ANIMAL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Animal_Planet_logo.svg" group-title="ANIMAL",Animal Planet HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a06u/index.m3u8
+
+#EXTINF:-1 tvg-id="CINECANAL" tvg-name="CINECANAL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/Cinecanal_logo.png" group-title="CINECANAL",CINECANAL HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07r/index.m3u8
+
+#EXTINF:-1 tvg-id="CNNE" tvg-name="CNNE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/CNN_International_2021_logo.svg/2560px-CNN_International_2021_logo.svg.png" group-title="CNNE",CNN
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a08s/index.m3u8
+
+#EXTINF:-1 tvg-id="CPremier" tvg-name="CPremier" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Chilevisión_2024.svg" group-title="CPremier",CPremier
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a084/index.m3u8
+
+#EXTINF:-1 tvg-id="CMX" tvg-name="CMX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/CMT_2024_logo.svg/2560px-CMT_2024_logo.svg.png" group-title="CMX",CMX
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a08f/index.m3u8
+
+#EXTINF:-1,Concert Channel
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a08e/index.m3u8
+
+#EXTINF:-1 tvg-id="DHE" tvg-name="DHE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DHE_Logo.svg" group-title="DHE",DHE
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a08d/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCTHEATER" tvg-name="DISCTHEATER" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/Discovery_HD_Theater_logo.svg" group-title="DISCTHEATER",DISCTHEATER
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07v/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCOVERY" tvg-name="DISCOVERY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Discovery_Channel_Latin_America_logo.svg" group-title="DISCOVERY",Discovery Channel HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a086/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCID" tvg-name="DISCID" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/Discovery_ID_logo.png" group-title="DISCID",DISCID
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a08a/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCKIDS" tvg-name="DISCKIDS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Discovery_Kids_logo.png" group-title="DISCKIDS",DISCKIDS
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a078/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCWORLD" tvg-name="DISCWORLD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Discovery_World.svg" group-title="DISCWORLD",DISCWORLD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a087/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCJR" tvg-name="DISCJR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Discovery_Junior_logo.png" group-title="DISCJR",DISCJR
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07k/index.m3u8
+
+#EXTINF:-1 tvg-id="DISCJR2" tvg-name="DISCJR2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Discovery_Junior_logo.png" group-title="DISCJR2",DISCJR2
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a09f/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN4" tvg-name="ESPN4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/ESPN4_Logo.png" group-title="ESPN4",ESPN4
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07n/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN2" tvg-name="ESPN2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/ESPN2_HD.png" group-title="ESPN2",ESPN2
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a080/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN3" tvg-name="ESPN3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/ESPN3_HD.png" group-title="ESPN3",ESPN3
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a081/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN5" tvg-name="ESPN5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/ESPN5_HD.png" group-title="ESPN5",ESPN5
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a074/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN6" tvg-name="ESPN6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/ESPN6_HD.png" group-title="ESPN6",ESPN6
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a08c/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN7" tvg-name="ESPN7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/79/ESPN7_HD.png" group-title="ESPN7",ESPN7
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a06a/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPNHD" tvg-name="ESPNHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/ESPNHD.png" group-title="ESPNHD",ESPNHD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07z/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPNPremium" tvg-name="ESPNPremium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/ESPNPremium_HD.png" group-title="ESPNPremium",ESPNPremium
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a09l/index.m3u8
+
+#EXTINF:-1 tvg-id="FXHD" tvg-name="FXHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c4/FX_HD.png" group-title="FXHD",FXHD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a06y/index.m3u8
+
+#EXTINF:-1 tvg-id="GOLD2" tvg-name="GOLD2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/GOLD2_HD.png" group-title="GOLD2",GOLD2
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07a/index.m3u8
+
+#EXTINF:-1 tvg-id="GOLD" tvg-name="GOLD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/GOLD_HD.png" group-title="GOLD",GOLD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a079/index.m3u8
+
+#EXTINF:-1 tvg-id="HBOfamily" tvg-name="HBOfamily" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/HBO_Family.svg" group-title="HBOfamily",HBOfamily
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07g/index.m3u8
+
+#EXTINF:-1 tvg-id="HBOHD" tvg-name="HBOHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/HBO_HD.svg" group-title="HBOHD",HBOHD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07d/index.m3u8
+
+#EXTINF:-1 tvg-id="HBOPLUS" tvg-name="HBOPLUS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/HBO_Plus.svg" group-title="HBOPLUS",HBOPLUS
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07f/index.m3u8
+
+#EXTINF:-1 tvg-id="HBOXTREME" tvg-name="HBOXTREME" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/HBO_Xtreme.png" group-title="HBOXTREME",HBOXTREME
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07h/index.m3u8
+
+#EXTINF:-1 tvg-id="HBO2" tvg-name="HBO2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/HBO2_HD.png" group-title="HBO2",HBO2
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07e/index.m3u8
+
+#EXTINF:-1 tvg-id="HISTORY" tvg-name="HISTORY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/History_Channel_Latin_America_logo.svg" group-title="HISTORY",HISTORY
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07m/index.m3u8
+
+#EXTINF:-1 tvg-id="HH" tvg-name="HH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/59/H2_Latin_America.svg" group-title="HH",HH
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07w/index.m3u8
+
+#EXTINF:-1 tvg-id="NATGEO" tvg-name="NATGEO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Nat_Geo_HD.png" group-title="NATGEO",NATGEO
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a083/index.m3u8
+
+#EXTINF:-1 tvg-id="SONY" tvg-name="SONY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0b/Sony_Entertainment_Television_2017.svg" group-title="SONY",SONY
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07q/index.m3u8
+
+#EXTINF:-1 tvg-id="SPACE" tvg-name="SPACE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/SPACE_HD.png" group-title="SPACE",SPACE
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a09e/index.m3u8
+
+#EXTINF:-1 tvg-id="STAR CHANNEL HD" tvg-name="STAR CHANNEL HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/77/STAR_CHANNEL_HD.png" group-title="STAR CHANNEL HD",STAR CHANNEL HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07p/index.m3u8
+
+#EXTINF:-1 tvg-id="Studio Universal HD" tvg-name="Studio Universal HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Studio_Universal_HD.png" group-title="Studio Universal HD",Studio Universal HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a06t/index.m3u8
+
+#EXTINF:-1 tvg-id="TNT" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/TNT_HD.png" group-title="TNT",TNT
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07u/index.m3u8
+
+#EXTINF:-1 tvg-id="TNT Series" tvg-name="TNT Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/TNT_Series_Logo.png" group-title="TNT Series",TNT Series
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a085/index.m3u8
+
+#EXTINF:-1 tvg-id="UNIVERSAL" tvg-name="UNIVERSAL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Universal_HD.png" group-title="UNIVERSAL",UNIVERSAL
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a071/index.m3u8
+
+#EXTINF:-1 tvg-id="UNIVISION" tvg-name="UNIVISION" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/Univision_HD.png" group-title="UNIVISION",UNIVISION
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a089/index.m3u8
+
+#EXTINF:-1 tvg-id="WARNER HD" tvg-name="WARNER HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Warner_HD.png" group-title="WARNER HD",WARNER HD
+#EXTVLCOPT:network-caching=1000
+http://181.78.197.59:8000/play/a07s/index.m3u8
