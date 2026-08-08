@@ -1,18 +1,24 @@
 #EXTM3U
 #EXTINF:-1 group-title="TV PREMIUM", A&E
+#EXTVLCOPT:network-caching=1000
 http://38.49.128.38:8000/play/a0bv/index.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM", A3 SERIES
+#EXTVLCOPT:network-caching=1000
 http://38.49.128.38:8000/play/a0b0/index.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM", ARTS
+#EXTVLCOPT:network-caching=1000
 http://38.49.128.38:8000/play/a0bc/index.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM", AXN
+#EXTVLCOPT:network-caching=1000
 http://38.49.128.38:8000/play/a08w/index.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM", C
+#EXTVLCOPT:network-caching=1000
 http://38.49.128.38:8000/play/a0cq/index.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM", DICOVERY CHANNEL
+#EXTVLCOPT:network-caching=1000
 http://38.49.128.38:8000/play/a0ep/index.m3u8

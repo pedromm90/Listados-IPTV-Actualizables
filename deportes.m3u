@@ -1,166 +1,104 @@
 #EXTM3U
 
-
-#EXTINF:-1,Claro Sports 2 HD
-http://200.35.176.154:8000/play/a00i/index.m3u8
-
 #EXTINF:-1,ESPN
-http://200.35.176.154:8000/play/a03a/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a03a&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 2 HD
-http://200.35.176.154:8000/play/a053/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a053&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 3
-http://200.35.176.154:8000/play/a02d/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a02d&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 3 HD
-http://200.35.176.154:8000/play/a054/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a054&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 4
-http://200.35.176.154:8000/play/a057/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a057&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 5
-http://200.35.176.154:8000/play/a058/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a058&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 6 HD
-http://200.35.176.154:8000/play/a055/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a055&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,EWTN
-http://200.35.176.154:8000/play/a01n/index.m3u8
+http://tecnotv.club/41ws/phpcode/ssiptv.php?c=a01n&token=tecnotokenplustv230516F&f=.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM", ESPN
-http://200.35.176.154:8000/play/a091/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista1.php?c=a091&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="TV PREMIUM", ESPN 3
-http://200.35.176.154:8000/play/a0c3/index.m3u8
+http://tecnotv.club/41ws/phpcode/lista1.php?c=a0c3&token=tecnotokenplustv230516F&f=.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM",TyC SPORTS
-http://200.35.176.154:8000/play/a0kw/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista1.php?c=a0kw&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="TV PREMIUM",TVC DEPORTES
-http://200.35.176.154:8000/play/a0mj/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista1.php?c=a0mj&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="TV PREMIUM",espn extra
-http://200.35.176.154:8000/play/a0kf/index.m3u8
+http://tecnotv.club/41ws/phpcode/lista1.php?c=a0kf&token=tecnotokenplustv230516F&f=.m3u8
 
 #EXTINF:-1 group-title="TV PREMIUM",ESPN
-http://200.35.176.154:8000/play/a03i/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista2.php?c=a03i&f=.m3u8&token=tecnotokenplustv230516F
 #EXTINF:-1 group-title="TV PREMIUM",ESPN 2
-http://200.35.176.154:8000/play/a039/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista2.php?c=a039&f=.m3u8&token=tecnotokenplustv230516F
 #EXTINF:-1 group-title="TV PREMIUM",ESPN 3
-http://200.35.176.154:8000/play/a04u/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista2.php?c=a04u&f=.m3u8&token=tecnotokenplustv230516F
 #EXTINF:-1 group-title="TV PREMIUM",ESPN 4
-http://200.35.176.154:8000/play/a046/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista2.php?c=a046&f=.m3u8&token=tecnotokenplustv230516F
 #EXTINF:-1 group-title="TV PREMIUM",ESPN CO
-http://200.35.176.154:8000/play/a04f/index.m3u8
+http://tecnotv.club/41ws/phpcode/lista2.php?c=a04f&f=.m3u8&token=tecnotokenplustv230516F
 
 
 #EXTINF:-1,ESPN 1 MX
-http://200.35.176.154:8000/play/a041/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=41&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 2 MX
-http://200.35.176.154:8000/play/a040/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=40&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 3 MX
-http://200.35.176.154:8000/play/a039/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=39&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,FOX SPORTS 1 MX
-http://200.35.176.154:8000/play/a030/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=30&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,FOX SPORTS 3 MX
-http://200.35.176.154:8000/play/a028/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=28&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,TDN
-http://200.35.176.154:8000/play/a008/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=8&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,UDN
-http://200.35.176.154:8000/play/a004/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=4&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,WWE NETWORK
-http://200.35.176.154:8000/play/a065/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=65&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,WIN SPORTS +
-http://200.35.176.154:8000/play/a066/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=66&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,WIN SPORTS
-http://200.35.176.154:8000/play/a067/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=67&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,NBA TV
-http://200.35.176.154:8000/play/a074/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=74&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,GOLTV
-http://200.35.176.154:8000/play/a076/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=76&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,LA LIGA
-http://200.35.176.154:8000/play/a075/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=75&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,FORMULA 1
-http://200.35.176.154:8000/play/a081/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=81&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN SUR
-http://200.35.176.154:8000/play/a077/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=77&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 2 SUR
-http://200.35.176.154:8000/play/a079/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=79&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,ESPN 3 SUR
-http://200.35.176.154:8000/play/a078/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista3.php?c=78&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1,CLARO SPORTS
-http://200.35.176.154:8000/play/a082/index.m3u8
+http://tecnotv.club/41ws/phpcode/lista3.php?c=82&token=tecnotokenplustv230516F&f=.m3u8
 
 
 #EXTINF:-1 group-title="-",ESPN
-http://200.35.176.154:8000/play/a04l/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a04l&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 2 HD
-http://200.35.176.154:8000/play/a05n/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a05n&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 2 Latin
-http://200.35.176.154:8000/play/a08c/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a08c&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 3 HD
-http://200.35.176.154:8000/play/a061/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a061&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 4 HD
-http://200.35.176.154:8000/play/a07f/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a07f&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 5 HD
-http://200.35.176.154:8000/play/a082/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a082&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 6 HD
-http://200.35.176.154:8000/play/a062/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a062&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN 7 HD
-http://200.35.176.154:8000/play/a01j/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a01j&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",ESPN HD
-http://200.35.176.154:8000/play/a05t/index.m3u8
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a05t&token=tecnotokenplustv230516F&f=.m3u8
 
 #EXTINF:-1 group-title="-",TNT Sports Premium SD
-http://200.35.176.154:8000/play/a05i/index.m3u8
-
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a05i&token=tecnotokenplustv230516F&f=.m3u8
 #EXTINF:-1 group-title="-",TyC
-http://200.35.176.154:8000/play/a047/index.m3u8
-
-#EXTINF:-1 group-title="-",ESPN 5 HD
-http://200.35.176.154:8000/play/a082/index.m3u8
-
-#EXTINF:-1 group-title="-",ESPN 6 HD
-http://200.35.176.154:8000/play/a062/index.m3u8
-
-#EXTINF:-1 group-title="-",ESPN 7 HD
-http://200.35.176.154:8000/play/a01j/index.m3u8
-
-#EXTINF:-1 group-title="-",ESPN HD
-http://200.35.176.154:8000/play/a05t/index.m3u8
-
-#EXTINF:-1 group-title="-",TNT Sports Premium SD
-http://200.35.176.154:8000/play/a05i/index.m3u8
-
-#EXTINF:-1 group-title="-",TyC
-http://200.35.176.154:8000/play/a047/index.m3u8
+http://tecnotv.club/41ws/phpcode/lista4.php?c=a047&token=tecnotokenplustv230516F&f=.m3u8
