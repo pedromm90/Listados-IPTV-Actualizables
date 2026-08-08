@@ -1,0 +1,414 @@
+#EXTM3U
+#EXTINF:-1 group-title="TV PREMIUM", A&E
+http://38.49.128.38:8000/play/a0bv/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", A3 SERIES
+http://38.49.128.38:8000/play/a0b0/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", ARTS
+http://38.49.128.38:8000/play/a0bc/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", AXN
+http://38.49.128.38:8000/play/a08w/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", BABY TV
+http://38.49.128.38:8000/play/a0b9/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", BOOMERAN
+http://38.49.128.38:8000/play/a0c1/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", C
+http://38.49.128.38:8000/play/a0cq/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", DICOVERY CHANNEL
+http://38.49.128.38:8000/play/a0ep/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", DISCOVERY TURBO
+http://38.49.128.38:8000/play/a0c4/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", DISNEY JR
+http://38.49.128.38:8000/play/a0bz/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", ESPN
+http://38.49.128.38:8000/play/a091/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", ESPN 3
+http://38.49.128.38:8000/play/a0c3/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", EÂ¡
+http://38.49.128.38:8000/play/a0by/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", FORMULA NOTICIAS
+http://38.49.128.38:8000/play/a0be/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", FX
+http://38.49.128.38:8000/play/a08x/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", H&H
+http://38.49.128.38:8000/play/a0bw/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", HBO
+http://38.49.128.38:8000/play/a0c5/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", HBO +
+http://38.49.128.38:8000/play/a0cv/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", IMAGEN
+http://38.49.128.38:8000/play/a0d5/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", ISAT
+http://38.49.128.38:8000/play/a0b2/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", MC
+http://38.49.128.38:8000/play/a0co/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", MTV HITS
+http://38.49.128.38:8000/play/a0b4/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", NATGEO LA
+http://38.49.128.38:8000/play/a0cl/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", SEX XTREME
+http://38.49.128.38:8000/play/a09c/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", STUDIO UNIVERSAL
+http://38.49.128.38:8000/play/a0bh/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", TLR
+http://38.49.128.38:8000/play/a0em/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", TNT SERIES
+http://38.49.128.38:8000/play/a0da/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", VENUS
+http://38.49.128.38:8000/play/a09b/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", VH1
+http://38.49.128.38:8000/play/a0b6/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", VIDEO ROLA
+http://38.49.128.38:8000/play/a0b5/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", WOBI
+http://38.49.128.38:8000/play/a0cd/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", XVA
+http://38.49.128.38:8000/play/a09e/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", VH1
+http://38.49.128.38:8000/play/a0b6/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", VIDEO ROLA
+http://38.49.128.38:8000/play/a0b5/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", history 2
+http://38.49.128.38:8000/play/a0dj/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", hola tv
+http://38.49.128.38:8000/play/a0db/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", milenio
+http://38.49.128.38:8000/play/a0dm/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", once
+http://38.49.128.38:8000/play/a0bq/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",12661 CANAL 14
+http://38.49.128.38:8000/play/a0ax/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",12661 CNN
+http://38.49.128.38:8000/play/a0bd/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",12661 JUSTICIA TV
+http://38.49.128.38:8000/play/a0bg/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",12661 NOTICIAS DEL CONGRESO
+http://38.49.128.38:8000/play/a0az/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",12661 TV UNAM
+http://38.49.128.38:8000/play/a0ay/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",12661 TVC
+http://38.49.128.38:8000/play/a0bf/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",13 realities
+http://38.49.128.38:8000/play/a0nj/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",13 teleseries
+http://38.49.128.38:8000/play/a0ni/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",ADN 40 HD
+http://38.49.128.38:8000/play/a0ne/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AMC
+http://38.49.128.38:8000/play/a0k8/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",ATLAS
+http://38.49.128.38:8000/play/a0os/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AYM
+http://38.49.128.38:8000/play/a0km/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AYM SPORT HD
+http://38.49.128.38:8000/play/a0mk/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AZTECA 7
+http://38.49.128.38:8000/play/a0fm/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AZTECA 7 HD
+http://38.49.128.38:8000/play/a0la/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AZTECA INTER HD
+http://38.49.128.38:8000/play/a0n7/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",AZTECA UNO
+http://38.49.128.38:8000/play/a0cc/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",BABY FIRST
+http://38.49.128.38:8000/play/a0kb/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",BITME
+http://38.49.128.38:8000/play/a0np/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CANAL 22
+http://38.49.128.38:8000/play/a0d7/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CANAL 5
+http://38.49.128.38:8000/play/a0fl/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CANAL 5 HD
+http://38.49.128.38:8000/play/a0n6/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CANAL INFANTIL SD
+http://38.49.128.38:8000/play/a0ot/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CARTOON NETWORK
+http://38.49.128.38:8000/play/a0c0/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CINE LATINO
+http://38.49.128.38:8000/play/a0lq/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CINEMAX
+http://38.49.128.38:8000/play/a093/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CLARO SPORT
+http://38.49.128.38:8000/play/a0cm/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CINEMAX
+http://38.49.128.38:8000/play/a093/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CLARO SPORT
+http://38.49.128.38:8000/play/a0cm/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CLICK HD
+http://38.49.128.38:8000/play/a0mh/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",CNN
+http://38.49.128.38:8000/play/a0dl/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",COMEDY CENTRAL
+http://38.49.128.38:8000/play/a0b3/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",Canal del Congreso 45.1
+http://38.49.128.38:8000/play/a0nt/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",Caracola TV
+http://38.49.128.38:8000/play/a0nd/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",Cartonito
+http://38.49.128.38:8000/play/a0kc/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",D pelicula
+http://38.49.128.38:8000/play/a0nn/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",DISCOVERY ID
+http://38.49.128.38:8000/play/a0ch/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",DISTRITO COMEDIA
+http://38.49.128.38:8000/play/a0ou/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",DreamWorks TV Latin America
+http://38.49.128.38:8000/play/a0no/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",EDGE
+http://38.49.128.38:8000/play/a0nh/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",EL 6
+http://38.49.128.38:8000/play/a0bp/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",ESPN 2
+http://38.49.128.38:8000/play/a092/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",ESTRELLAS
+http://38.49.128.38:8000/play/a0d4/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",ESTRELLAS HD
+http://38.49.128.38:8000/play/a0le/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",EXA TV
+http://38.49.128.38:8000/play/a0lr/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",FAST AND FUN BOX
+http://38.49.128.38:8000/play/a0ks/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",FAST FUN HD
+http://38.49.128.38:8000/play/a0mi/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",FIGTH BOX
+http://38.49.128.38:8000/play/a0kr/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",FILM  &  ARTS
+http://38.49.128.38:8000/play/a0k9/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",FOX SPORTS 2
+http://38.49.128.38:8000/play/a0oz/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",FOX sport 3
+http://38.49.128.38:8000/play/a0ox/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",GAME TOON
+http://38.49.128.38:8000/play/a0kv/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",GINX
+http://38.49.128.38:8000/play/a0kx/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",GOLF CHANNEL
+http://38.49.128.38:8000/play/a0kz/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",HBO 2
+http://38.49.128.38:8000/play/a0ct/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",HBO FAMILY
+http://38.49.128.38:8000/play/a0cu/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",HBO MUNDI
+http://38.49.128.38:8000/play/a0jj/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",HBO SIGNATURE
+http://38.49.128.38:8000/play/a0ji/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",HBO XTREME
+http://38.49.128.38:8000/play/a096/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",HTV
+http://38.49.128.38:8000/play/a0b7/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",Justicia TV (Mexico)
+http://38.49.128.38:8000/play/a0ns/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",LAMEJOR TV
+http://38.49.128.38:8000/play/a0ls/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",LIFE TIME
+http://38.49.128.38:8000/play/a0ci/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",MASCHIC
+http://38.49.128.38:8000/play/a0ka/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",MTV 00
+http://38.49.128.38:8000/play/a0kh/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",MULTI PREMIER
+http://38.49.128.38:8000/play/a0cp/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",MULTICANAL
+http://38.49.128.38:8000/play/a0lo/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",MULTIPREMIER
+http://38.49.128.38:8000/play/a0lp/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",NBA
+http://38.49.128.38:8000/play/a0kj/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",NFL
+http://38.49.128.38:8000/play/a0kk/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",NICK JR
+http://38.49.128.38:8000/play/a0ck/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",NICKMUSIC
+http://38.49.128.38:8000/play/a0lt/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",OUTDOOR
+http://38.49.128.38:8000/play/a0kt/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",Once niÃ±as y niÃ±os
+http://38.49.128.38:8000/play/a0nr/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",PARAMOUNT
+http://38.49.128.38:8000/play/a0cs/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",PLAY BOY
+http://38.49.128.38:8000/play/a09a/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",PX SPORTS
+http://38.49.128.38:8000/play/a0ku/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",RT
+http://38.49.128.38:8000/play/a0nk/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",SPACE
+http://38.49.128.38:8000/play/a0cg/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",SYFY
+http://38.49.128.38:8000/play/a0b1/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TELEMUNDO INTER HD
+http://38.49.128.38:8000/play/a0mg/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TLC
+http://38.49.128.38:8000/play/a0bx/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TLN Telenovelas. SD
+http://38.49.128.38:8000/play/a0oy/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TRACE
+http://38.49.128.38:8000/play/a0ky/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TVC DEPORTES
+http://38.49.128.38:8000/play/a0mj/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TVCD
+http://38.49.128.38:8000/play/a0kl/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TeleYucatan
+http://38.49.128.38:8000/play/a0na/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",TyC SPORTS
+http://38.49.128.38:8000/play/a0kw/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",UNICABLE
+http://38.49.128.38:8000/play/a0ov/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",UNIVERSAL
+http://38.49.128.38:8000/play/a0bt/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",WARNER
+http://38.49.128.38:8000/play/a0cf/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",canal 22.2
+http://38.49.128.38:8000/play/a0nu/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",dw espa
+http://38.49.128.38:8000/play/a0nl/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",el9nueve SD
+http://38.49.128.38:8000/play/a0ow/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",espn extra
+http://38.49.128.38:8000/play/a0kf/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",fox channel
+http://38.49.128.38:8000/play/a08v/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",france 24
+http://38.49.128.38:8000/play/a0nm/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",letra a
+http://38.49.128.38:8000/play/a0bu/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",teleplay
+http://38.49.128.38:8000/play/a0ng/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM",tnt novelas
+http://38.49.128.38:8000/play/a0m2/index.m3u8
