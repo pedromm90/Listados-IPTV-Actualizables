@@ -1,5 +1,5 @@
 const M3U_URL =
-  "https://raw.githubusercontent.com/pedromm90/Listados-IPTV-Actualizables/refs/heads/main/LISTADO_M3U.m3u";
+  "https://raw.githubusercontent.com/pedromm90/Listados-IPTV-Actualizables/refs/heads/main/lists/LISTADO_M3U.m3u";
 
 // Proxy helper: routes requests through /api/proxy on HTTPS to avoid Mixed Content blocking
 function proxyUrl(url) {
