@@ -1,0 +1,18 @@
+#EXTM3U
+#EXTINF:-1 group-title="TV PREMIUM", A&E
+http://38.49.128.38:8000/play/a0bv/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", A3 SERIES
+http://38.49.128.38:8000/play/a0b0/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", ARTS
+http://38.49.128.38:8000/play/a0bc/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", AXN
+http://38.49.128.38:8000/play/a08w/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", C
+http://38.49.128.38:8000/play/a0cq/index.m3u8
+
+#EXTINF:-1 group-title="TV PREMIUM", DICOVERY CHANNEL
+http://38.49.128.38:8000/play/a0ep/index.m3u8
